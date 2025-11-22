@@ -21,6 +21,6 @@ RUN python -m venv /py && \
 
 ENV PATH="/py/bin:$PATH"
 
-# llowing to run the container with non-root user
+
 
 USER django-user
